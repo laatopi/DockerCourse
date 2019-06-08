@@ -1,0 +1,3 @@
+https://cloud.docker.com/u/laatopi/repository/docker/laatopi/dockercoursex1.15
+
+The image doesnt work because Docker is hard to configure to a application that uses GUI

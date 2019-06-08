@@ -1,0 +1,5 @@
+docker run --rm -d -p 5000:5000 ex1.10
+
+docker run --rm -d -p 8000:8000 -v $(pwd)/logs.txt:/dir/logs.txt ex1.11
+
+

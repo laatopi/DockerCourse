@@ -1,0 +1,10 @@
+### When to use Kubernetes?
+
+Software programming has many issues when creating applications. Different development enviroments, operating systems and personal configurations make application installations and configuring a challenge, and oftean leads to issues with applications working differently in different  host systems. Also, security is an issue as well. Containers help with these problems by making the installation and security related setting consistent and much more streamlined to handle. 
+
+Kubernetes is a platform for managing containerized applications, and is meant to fulfill the purpose of multihost containerizing, with a open-source code.  It organizes multiple containers that are on their own enviroments from each other and also from the host-kernel. They are not as heavy as virtual machines, but efficient in both speed and size, and make continous development easy.
+
+Kubernetes groups containers into a pod that contains one or mone containers that are located in the same hostmachine which makes them able to share resources. Containers inside a pod can see each other, and one service can use multiple pods in orded to create largescale application. The network traffic of the pods is balanced which creates a well maintanced traffic and failproofs the network in case a host fails.
+
+Another alternate application is Docker Swarm, that fulfills a lots of the same purposes, but has differences in many cases. Still Kubernetes supports higher demands than Docker Swarm but is more complex, and is used by many high profile internet companies running popular services.
+

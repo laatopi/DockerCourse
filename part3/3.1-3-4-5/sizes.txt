@@ -1,0 +1,9 @@
+Frontend:
+    Start: 430 MB
+    End: 265 MB
+    3.4: 95 MB
+
+Backend:
+    Start: 350 MB
+    End: 264 MB
+    3.4: 155 MB
